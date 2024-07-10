@@ -1,0 +1,29 @@
+@import url(./assets/fonts/Inter/static/Inter-Medium.ttf);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 0;
+    font-family: 'Inter' cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,#6ab7f5,#fff );
+    min-height: 100vh;
+
+}
+
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+}
+
+#pokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
